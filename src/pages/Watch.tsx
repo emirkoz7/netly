@@ -43,7 +43,7 @@ export default function Watch() {
   }
 
   function getSource() {
-    let url = `https://vidsrc.pro/embed/${type}/${id}`;
+    let url = `https://z.hopmarks.com/embed/${type}/${id}`;
 
     url += `?v=${import.meta.env.VITE_APP_VERSION}&n=${import.meta.env.VITE_APP_NAME}`;
 
