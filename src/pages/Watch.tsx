@@ -82,7 +82,7 @@ export default function Watch() {
   }
 
   async function getMaxEpisodes(season: number) {
-    const req = await fetch(`${import.meta.env.VITE_APP_API}/episodes/${id}?s=${season}`);
+    const req = await fetch(`https://z.hopmarks.com/embed/tv/${id}?season=${season}`);
     const res = await req.json();
 
     if (!res.success) {
